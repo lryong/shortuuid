@@ -1,0 +1,27 @@
+[package]
+name = "shortuuid"
+description = """
+    A generator library for concise, unambiguous and URL-safe UUIDs
+"""
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+keywords = ["uuid","shortuuid"]
+homepage = "https://github.com/lryong/shortuuid"
+repository = "https://github.com/lryong/shortuuid"
+authors = ["Herbert Lu <15816537946@163.com>"]
+categories = [
+    "data-structures",
+    "no-std",
+    "parser-implementations",
+    "wasm"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "shortuuid"
+path = "src/lib.rs"
+
+[dependencies]
+
+
